@@ -1,0 +1,86 @@
+body{
+  font-family: arial, sans-serif;
+  
+  
+}
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+.fundo{
+  background-image: url("fundo-login.jpg");
+  background-position: left center ;
+  background-repeat: no-repeat;
+  background-size: 1520px;
+  width:100%;
+  height: 1260px;
+}
+.sobre-fundo{
+  width:55%;
+  height: 100%;
+  background-color: aliceblue;
+  align-content: center;
+  padding:  40px;
+}
+
+.img{
+  text-align: center;
+  
+}
+.login{
+  color:gold;
+  font-size:19px;
+  margin-bottom: 20px;
+}
+.sobre-fundo p{
+  font-size:17px;
+  line-height: 19px;
+}
+input{
+  width:100%;
+  height: 45px;
+  margin-top: 20px;
+  line-height: 10px;
+  align-content: center;
+  border-radius: 10px;
+  border: 1px solid gold;
+  padding-left: 9px;
+}
+.ordem{
+  margin-top: 10px;
+  
+  
+}
+.esqueceu{
+  color: gold;
+  font-size: 19px;
+}
+.ordem button{
+  width:100%;
+  padding: 10px 0;
+  color:white;
+  background: #FFD700;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 20px 0;
+  
+}
+.criar-conta {
+  display: flex;
+  gap: 17px;
+  font-size: 25px;
+}
+.criar-conta a{
+  color:gold;
+}
+@media(max-width:600px){
+ .fundo{ 
+   height: 100vh;
+ }
+ .sobre-fundo{
+   width: 100%;
+ }
+}
